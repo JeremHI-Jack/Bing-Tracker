@@ -23,7 +23,7 @@
   - Implements a randomized delay between page fetches to reduce the risk of being blocked.
 
 ## Project Structure
-ING-TRACKER/ 
+BING-TRACKER/ 
 ├── bing_tracker.py # Main Python script 
 ├── keywords.txt # List of keywords (one per line) 
 ├── whitelist.txt # List of domains to exclude 
