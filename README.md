@@ -1,5 +1,11 @@
 # Bing Tracker
 
+## Purpose
+
+This script is designed to help monitor and detect typosquatting on your domains. It queries Bing to collect search results based on specific keywords, then filters out the results that come from your own (safe) domains as listed in the `whitelist.txt`. This way, you can easily identify any results that might represent a potential threat or an attempt to mislead users by mimicking your brand.
+
+---
+
 ## Overview
 
 **Bing Tracker** is a Python script that searches Bing for multiple keywords, retrieves up to 50 pages of results for each keyword, and saves the filtered results into separate CSV files. The script handles multiple types of results (organic, sponsored, and other), filters out results from whitelisted domains, and removes entries without a valid domain.
@@ -22,7 +28,7 @@
   - Uses UTF-8 encoding for accented characters.  
 - **Robustness**:  
   - Retries for network requests (5 attempts, exponential backoff).  
-  - Random delay to avoid blocking by Bing.
+  - Random delay to avoid being blocked by Bing.
 
 ---
 
@@ -32,7 +38,7 @@
   - `bing_tracker.py` — Main Python script  
   - `keywords.txt` — List of keywords (one per line)  
   - `whitelist.txt` — List of domains to exclude  
-  - `README.md` — This file  
+  - `README.md` — This file
 
 ---
 
