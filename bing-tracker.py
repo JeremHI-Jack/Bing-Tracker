@@ -9,6 +9,8 @@ import csv
 import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from requests.adapters import HTTPAdapter, Retry
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 # Function to read a file and return a list of non-empty lines
 def read_file(file_path):
