@@ -53,19 +53,5 @@ This script is designed to help monitor and detect typosquatting on your domains
   pip install requests beautifulsoup4
 
 ## Usage
-- **Prepare Input Files**:  
-keywords.txt : Contains one keyword per line.
-whitelist.txt : Contains one domain per line (in lowercase) to exclude from the results.
+![image](https://github.com/user-attachments/assets/48a9d593-3b41-46df-b6b3-c7ba102d0a30)
 
-- **Run the Script**:
-python bing_tracker.py
-
-- **Check the Output**:
-The script generates a separate CSV file for each keyword (e.g., buy_laptop.csv).
-Each CSV file includes the following columns:
-Keyword
-Result Type
-Title
-Link
-Domain
-Description
