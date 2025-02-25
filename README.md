@@ -54,8 +54,8 @@ This script is designed to help monitor and detect typosquatting on your domains
 
 ## Usage
 - **Prepare Input Files**:  
-keywords.txt : Contains one keyword per line
-whitelist.txt : Contains one domain per line (in lowercase) to exclude from the results
+keywords.txt : Contains one keyword per line.
+whitelist.txt : Contains one domain per line (in lowercase) to exclude from the results.
 
 - **Run the Script**:
 python bing_tracker.py
